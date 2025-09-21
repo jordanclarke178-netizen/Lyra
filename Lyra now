@@ -1,0 +1,22 @@
+echo "# Lyra" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jordanclarke178-netizen/Lyra.git
+git push -u origin main
+{
+  "name": "lyra-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lyra,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
+
+npm install
